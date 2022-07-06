@@ -1,1 +1,8 @@
 Django==3.1.2
+import datetime
+import os
+from django.http import HttpResponse
+from django.shortcuts import render, reverse
+from django.contrib import admin
+from django.urls import path, include
+
